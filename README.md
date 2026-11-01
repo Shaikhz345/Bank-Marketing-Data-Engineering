@@ -1,9 +1,9 @@
 Bank Marketing Data Cleaning
 Project Overview
 
-A DataCamp project focused on cleaning, transforming, and restructuring bank marketing campaign data in preparation for storage in a PostgreSQL database.
+This DataCamp project focuses on cleaning, transforming, and restructuring bank marketing campaign data in preparation for storage in a PostgreSQL database.
 
-The goal was to standardize the dataset, ensure consistent data types, and split the cleaned data into three separate CSV files.
+The objective was to standardize the dataset, ensure consistent data types, and split the cleaned data into three separate CSV files.
 
 Tasks Completed
 Cleaned and standardized client information.
@@ -18,11 +18,12 @@ Pandas
 NumPy
 Jupyter Notebook
 Project Files
-client.csv – Client demographics and financial information.
-campaign.csv – Marketing campaign contact details and outcomes.
-economics.csv – Economic indicators associated with the campaign.
-bank_marketing_analysis.ipynb – Notebook containing the data cleaning and transformation process.
-data/ – Original dataset and exported CSV files.
+File	Description
+client.csv	Client demographics and financial information
+campaign.csv	Marketing campaign contact details and outcomes
+economics.csv	Economic indicators associated with the campaign
+bank_marketing_analysis.ipynb	Notebook containing the data cleaning and transformation process
+data/	Original dataset and exported CSV files
 Acknowledgment
 
 Completed as part of a DataCamp project to develop practical skills in Python, data cleaning, and data preparation for database integration.
