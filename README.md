@@ -20,16 +20,6 @@ A DataCamp project focused on cleaning and transforming bank marketing campaign 
 - Jupyter Notebook
 - PostgreSQL
 
-## Project Structure
-
-bank-marketing-analysis/
-├── README.md
-├── bank_marketing_analysis.ipynb
-└── data/
-    ├── bank_marketing.csv
-    ├── client.csv
-    ├── campaign.csv
-    └── economics.csv
 
 ## Output Files
 
