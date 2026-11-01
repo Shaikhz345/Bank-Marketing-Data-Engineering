@@ -1,29 +1,44 @@
-Bank Marketing Data Cleaning
-Project Overview
+# Bank Marketing Data Cleaning
 
-This DataCamp project focuses on cleaning, transforming, and restructuring bank marketing campaign data in preparation for storage in a PostgreSQL database.
+A DataCamp project focused on cleaning and transforming bank marketing campaign data using Python and Pandas. The objective was to prepare the data for storage in a PostgreSQL database.
 
-The objective was to standardize the dataset, ensure consistent data types, and split the cleaned data into three separate CSV files.
+---
 
-Tasks Completed
-Cleaned and standardized client information.
-Converted categorical values into boolean data types.
-Handled missing and unknown education values.
-Created a last_contact_date column using day, month, and year (2022).
-Converted economic indicators to the appropriate numeric data types.
-Split the cleaned dataset into three separate files.
-Tools Used
-Python
-Pandas
-NumPy
-Jupyter Notebook
-Project Files
-File	Description
-client.csv	Client demographics and financial information
-campaign.csv	Marketing campaign contact details and outcomes
-economics.csv	Economic indicators associated with the campaign
-bank_marketing_analysis.ipynb	Notebook containing the data cleaning and transformation process
-data/	Original dataset and exported CSV files
-Acknowledgment
+## Project Objectives
+
+- Clean and standardize client information.
+- Convert columns to the required data types.
+- Handle missing and unknown values.
+- Create a last_contact_date column using day, month, and year (2022).
+- Separate the cleaned data into three CSV files.
+
+## Tools & Technologies
+
+- Python
+- Pandas
+- NumPy
+- Jupyter Notebook
+- PostgreSQL
+
+## Project Structure
+
+bank-marketing-analysis/
+├── README.md
+├── bank_marketing_analysis.ipynb
+└── data/
+    ├── bank_marketing.csv
+    ├── client.csv
+    ├── campaign.csv
+    └── economics.csv
+
+## Output Files
+
+| File | Description |
+|---|---|
+| client.csv | Client demographics and financial information |
+| campaign.csv | Campaign contacts, outcomes, and contact dates |
+| economics.csv | Consumer price index and Euribor indicators |
+
+## Acknowledgment
 
 Completed as part of a DataCamp project to develop practical skills in Python, data cleaning, and data preparation for database integration.
